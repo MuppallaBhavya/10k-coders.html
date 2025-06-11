@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/bhavya.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>frontend</h1></center>
+    <center>
+    <a href="./front,backend_files/download.webp" download=""><img src="./front,backend_files/html logo.png" alt="html" width="200"></a>
+    <a href="./front,backend_files/download.webp" download=""><img src="./front,backend_files/css3-logo-png.png" alt="html" width="200"></a>
+    <a href="./front,backend_files/download.webp" download=""><img src="./front,backend_files/js-logo-1.webp" alt="html" width="200"></a>
+    <a href="./front,backend_files/download.webp" download=""><img src="./front,backend_files/react.js-img.png" alt="html" width="300"></a> 
+    </center>
+    <br>
+ <pre>                                    <a href="./front,backend_files/html logo.png" download=""> <img src="./front,backend_files/download.webp" alt="html" width="80"></a>                 <a href="./front,backend_files/css3-logo-png.png" download=""> <img src="./front,backend_files/download.webp" alt="html" width="80"></a>                  <a href="./front,backend_files/js-logo-1.webp" download=""> <img src="./front,backend_files/download.webp" alt="html" width="80"></a>                   <a href="./front,backend_files/react.js-img.png" download=""> <img src="./front,backend_files/download.webp" alt="html" width="80"></a> </pre>
+    <center><h1>Backend</h1></center>
+    <center>
+    <a href="./front,backend_files/download.webp" download=""><img src="./front,backend_files/c logo.png" alt="c" width="200"></a>
+    <a href="./front,backend_files/download.webp" download=""><img src="./front,backend_files/python logo.webp" alt="python" width="200"></a>
+    <a href="./front,backend_files/download.webp" download=""><img src="./front,backend_files/java logo.png" alt="java" width="200"></a>
+    <a href="./front,backend_files/download.webp" download=""><img src="./front,backend_files/node.js logo.png" alt="nodejs" width="200"></a>
+    </center>
+    <br>       
+ <pre>                                    <a href="./front,backend_files/c logo.png" download=""> <img src="./front,backend_files/download.webp" alt="C" width="80"></a>                 <a href="./front,backend_files/python logo.webp" download=""> <img src="./front,backend_files/download.webp" alt="python" width="80"></a>                  <a href="./front,backend_files/java logo.png" download=""> <img src="./front,backend_files/download.webp" alt="java" width="80"></a>                   <a href="./front,backend_files/node.js logo.png" download=""> <img src="./front,backend_files/download.webp" alt="nodejs" width="80"></a> </pre>
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
